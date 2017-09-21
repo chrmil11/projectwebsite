@@ -51,6 +51,13 @@ table {
 /* Begin Site Styles */
 
 /* Base Styles */
+html {
+	color: white;
+	background-color: black;
+	font-family: sans-serif;
+	font-size: 1.25em; /* 20 / 16 = 1.25em */
+	line-height: 1.3em; /* 26 / 20 = 1.3em */
+}
 
 /* Simple HTML/element selectors */
 
