@@ -48,4 +48,24 @@ table {
 }
 
 /* End Reset CSS */
-/* Begin Site Styles*/
+/* Begin Site Styles */
+
+/* Base Styles */
+
+/* Simple HTML/element selectors */
+
+/* Typographic styles; colors; spacing */
+
+/* Layout Styles */
+
+/* State Styles; Media-query dependent styles */
+
+/* TODO: Pick out font of interest
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Muli', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Pontano Sans', sans-serif;
+    font-family: 'Mada', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+*/
