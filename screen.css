@@ -115,6 +115,10 @@ a:hover, a:target, a:focus{
 	padding-bottom: 2.6em;
 }
 
+p {
+	display: block;
+}
+
 .player {
 	display: block;
 	padding-top: 1.3em;
