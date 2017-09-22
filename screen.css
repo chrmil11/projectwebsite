@@ -86,8 +86,13 @@ h3 {
 }
 
 h3 > small {
-	font-size: 0.7692em;
 	display: block;
+	font-size: 0.7692em;
+	font-weight: bold;
+}
+
+li strong {
+	font-weight: bold;
 }
 
 /* Layout Styles */
@@ -100,6 +105,11 @@ h3 > small {
 
 .player {
 	display: block;
+	padding-top: 1.3em;
+}
+
+#achievements li {
+	display:block;
 	padding-top: 1.3em;
 }
 
