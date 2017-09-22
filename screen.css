@@ -91,6 +91,15 @@ h3 > small {
 /* Layout Styles */
 
 /* Modular Styles */
+#header, #introduction, #team, #achievements {
+	display: block;
+	padding-bottom: 2.6em;
+}
+
+.player {
+	display: block;
+	padding-top: 1.3em;
+}
 
 /* State Styles; Media-query dependent styles */
 
