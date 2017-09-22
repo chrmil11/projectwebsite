@@ -59,6 +59,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	text-size-adjust: 100%;
 	text-rendering: optimizeLegibility;
+	display: block;
 	color: white;
 	background-color: black;
 	font-family: 'Muli', Helvetica, Arial, sans-serif;
@@ -95,6 +96,10 @@ li strong {
 	font-weight: bold;
 }
 
+#page {
+	margin: auto;
+}
+
 /* Layout Styles */
 
 /* Modular Styles */
@@ -114,5 +119,22 @@ li strong {
 }
 
 /* State Styles; Media-query dependent styles */
+@media screen and (min-width: 1121px) {
+	#page {
+		width: 77%;
+	}
+}
+
+@media screen and (min-width: 1441px) {
+	#page {
+		width: 63%;
+	}
+}
+
+@media screen and (min-width: 1749px) {
+	#page {
+		width: 50%;
+	}
+}
 
 /* Responsive Images */
