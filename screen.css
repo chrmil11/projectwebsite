@@ -50,6 +50,8 @@ table {
 /* End Reset CSS */
 /* Begin Site Styles */
 
+/* Fonts that look good: Muli, Titillium Web, Helvetica */
+
 /* Base Styles */
 html {
 	-moz-text-size-adjust: 100%;
@@ -59,7 +61,7 @@ html {
 	text-rendering: optimizeLegibility;
 	color: white;
 	background-color: black;
-	font-family: sans-serif;
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
 	/* 20/26 styling, with text sizes based on the major sixth modular scale (1.667) */
 	font-size: 1.25em; /* 20 / 16 = 1.25em */
 	line-height: 1.3em; /* 26 / 20 = 1.3em */
@@ -104,13 +106,3 @@ h3 > small {
 /* State Styles; Media-query dependent styles */
 
 /* Responsive Images */
-
-/* TODO: Pick out font of interest
-    font-family: 'Titillium Web', sans-serif;
-    font-family: 'Muli', sans-serif;
-    font-family: 'Rubik', sans-serif;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Pontano Sans', sans-serif;
-    font-family: 'Mada', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-*/
