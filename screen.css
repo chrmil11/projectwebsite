@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -16,35 +16,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 html {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* End Reset CSS */
@@ -54,106 +54,106 @@ table {
 
 /* Base Styles */
 html {
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-	text-rendering: optimizeLegibility;
-	display: block;
-	color: white;
-	background-color: black;
-	font-family: 'Muli', Helvetica, Arial, sans-serif;
-	/* 20/26 styling, with text sizes based on the major sixth modular scale (1.667) */
-	font-size: 1.25em; /* 20 / 16 = 1.25em */
-	line-height: 1.3em; /* 26 / 20 = 1.3em */
-	padding: 2.6em 1.3em 1.3em 1.3em;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  display: block;
+  color: white;
+  background-color: black;
+  font-family: 'Muli', Helvetica, Arial, sans-serif;
+  /* 20/26 styling, with text sizes based on the major sixth modular scale (1.667) */
+  font-size: 1.25em; /* 20 / 16 = 1.25em */
+  line-height: 1.3em; /* 26 / 20 = 1.3em */
+  padding: 2.6em 1.3em 1.3em 1.3em;
 }
 
 /* Simple HTML/element selectors */
 /* Typographic styles; colors; spacing */
 #page {
-	margin: auto;
+  margin: auto;
 }
 
 h1 {
-	font-size: 2.779em; /* 55.578 / 20 = 2.779em */
-	line-height: 1.403em; /* 78 / 55.578 = 1.403em */
-	text-align: center;
+  font-size: 2.779em; /* 55.578 / 20 = 2.779em */
+  line-height: 1.403em; /* 78 / 55.578 = 1.403em */
+  text-align: center;
 }
 
 h2 {
-	font-size: 1.667em; /* 33.34 / 20 = 1.667em */
-	line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
+  font-size: 1.667em; /* 33.34 / 20 = 1.667em */
+  line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
 }
 
 h3 {
-	font-size: 1.3em; /* 26 / 20 = 1.3em */
+  font-size: 1.3em; /* 26 / 20 = 1.3em */
 }
 
 h3 > small {
-	display: block;
-	font-size: 0.7692em;
-	font-weight: bold;
+  display: block;
+  font-size: 0.7692em;
+  font-weight: bold;
 }
 
 li strong {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 a {
-	color: #ff2600;
+  color: #ff2600;
 }
 
 a:hover, a:target, a:focus{
-	color: #ff0;
+  color: #ff0;
 }
 
 p {
-	display: block;
+  display: block;
 }
 /* Layout Styles */
 
 /* Modular Styles */
 #header, #introduction, #team, #achievements {
-	display: block;
-	padding-bottom: 2.6em;
+  display: block;
+  padding-bottom: 2.6em;
 }
 
 #footer {
-	display: block;
-	text-align: center;
-	font-size: 0.9em; /* 18 / 20 = 0.9em */
-	padding-top: 1.3em;
-	border-top: 1px solid white;
+  display: block;
+  text-align: center;
+  font-size: 0.9em; /* 18 / 20 = 0.9em */
+  padding-top: 1.3em;
+  border-top: 1px solid white;
 }
 
 .player {
-	display: block;
-	padding-top: 1.3em;
+  display: block;
+  padding-top: 1.3em;
 }
 
 #achievements li {
-	display: block;
-	padding-top: 1.3em;
+  display: block;
+  padding-top: 1.3em;
 }
 
 /* State Styles; Media-query dependent styles */
 @media screen and (min-width: 1121px) {
-	#page {
-		width: 77%;
-	}
+  #page {
+    width: 77%;
+  }
 }
 
 @media screen and (min-width: 1441px) {
-	#page {
-		width: 63%;
-	}
+  #page {
+    width: 63%;
+  }
 }
 
 @media screen and (min-width: 1749px) {
-	#page {
-		width: 50%;
-	}
+  #page {
+    width: 50%;
+  }
 }
 
 /* Responsive Images */
