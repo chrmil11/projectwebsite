@@ -123,6 +123,8 @@ p {
 	display: block;
 	text-align: center;
 	font-size: 0.9em; /* 18 / 20 = 0.9em */
+	padding-top: 1.3em;
+	border-top: 1px solid white;
 }
 
 .player {
@@ -131,7 +133,7 @@ p {
 }
 
 #achievements li {
-	display:block;
+	display: block;
 	padding-top: 1.3em;
 }
 
