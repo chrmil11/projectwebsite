@@ -107,6 +107,10 @@ a {
 a:hover, a:target, a:focus{
 	color: #ff0;
 }
+
+p {
+	display: block;
+}
 /* Layout Styles */
 
 /* Modular Styles */
@@ -115,8 +119,10 @@ a:hover, a:target, a:focus{
 	padding-bottom: 2.6em;
 }
 
-p {
+#footer {
 	display: block;
+	text-align: center;
+	font-size: 0.9em; /* 18 / 20 = 0.9em */
 }
 
 .player {
