@@ -102,7 +102,7 @@ h3 {
   font-size: 1.3em; /* 26 / 20 = 1.3em */
 }
 
-#team p, #achievements p {
+#team p, #achievements p, #team ul, #achievements ul {
   text-align: center;
 }
 
