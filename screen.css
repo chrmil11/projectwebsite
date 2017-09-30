@@ -84,6 +84,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Righteous', 'Muli', Helvetica, Arial, sans-serif;
+  text-align: center;
 }
 
 h1 {
@@ -101,9 +102,14 @@ h3 {
   font-size: 1.3em; /* 26 / 20 = 1.3em */
 }
 
-small {
+#team p, #achievements p {
+  text-align: center;
+}
+
+.player small {
   display: block;
   font-weight: bold;
+  text-align: center;
 }
 
 li strong {
@@ -114,8 +120,8 @@ a {
   color: #ff2600;
 }
 
-a:hover, a:target, a:focus{
-  color: #ff0;
+a:hover, a:target, a:focus {
+  color: #f0f;
 }
 
 p {
