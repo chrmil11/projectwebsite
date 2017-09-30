@@ -53,6 +53,10 @@ table {
 /* Fonts that look good: Muli, Titillium Web, Helvetica */
 
 /* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
 html {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -65,12 +69,17 @@ html {
   /* 20/26 styling, with text sizes based on the major sixth modular scale (1.667) */
   font-size: 1.25em; /* 20 / 16 = 1.25em */
   line-height: 1.3em; /* 26 / 20 = 1.3em */
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 /* Simple HTML/element selectors */
 /* Typographic styles; colors; spacing */
 #page {
-  margin: auto;
+  margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -116,41 +125,50 @@ p {
 
 ul, ol {
   display: block;
-  padding-bottom: 1.3em;
 }
+
 /* Layout Styles */
 
 #header, #team, #footer {
-  display: block;
+  display: table;
   background-color: black;
   color: white;
-  padding: 1.3em;
+  width: 100%;
   max-width: none;
-  min-height: 90vh;
+  padding: 1.3em;
+  height: 90vh;
 }
 
 #introduction, #achievements {
-  display: block;
+  display: table;
   background-color: white;
   color: black;
-  padding: 1.3em;
+  width: 100%;
   max-width: none;
-  min-height: 90vh;
-  box-sizing: border-box;
+  padding: 1.3em;
+  height: 90vh;
 }
 
 /* Modular Styles */
 
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 #footer {
   text-align: center;
   font-size: 0.9em; /* 18 / 20 = 0.9em */
-  padding-top: 1.3em;
-  border-top: 1px solid white;
-  min-height: 0;
+  height: 100%;
 }
 
 .player {
   display: block;
+  padding-bottom: 1.3em;
+}
+
+p:last-child, .player:last-of-type {
+  padding-bottom: 0;
 }
 
 #achievements li {
