@@ -161,6 +161,7 @@ ul, ol {
 .content {
   display: table-cell;
   vertical-align: middle;
+  padding: 2em 0;
 }
 
 #footer {
