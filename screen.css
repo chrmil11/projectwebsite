@@ -88,18 +88,19 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.779em; /* 55.578 / 20 = 2.779em */
-  line-height: 1.403em; /* 78 / 55.578 = 1.403em */
+  font-size: 4.632em; /* 92.648 / 20 = 4.632em */
+  line-height: 1.12253em; /* 104 / 92.648 = 1.12253em */
   text-align: center;
 }
 
 h2 {
-  font-size: 1.667em; /* 33.34 / 20 = 1.667em */
-  line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
+  font-size: 2.779em; /* 55.578 / 20 = 2.779em */
+  line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
 }
 
 h3 {
-  font-size: 1.3em; /* 26 / 20 = 1.3em */
+  font-size: 1.667em; /* 33.34 / 20 = 1.667em */
+  line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
 }
 
 #team p, #achievements p, #team ul, #achievements ul {
@@ -201,9 +202,9 @@ p:last-child, .player:last-of-type {
   }
 }
 
-@media screen and (min-width: 1749px) {
+@media screen and (min-width: 1476px) {
   #page {
-    width: 48%;
+    width: 50%;
   }
 }
 
