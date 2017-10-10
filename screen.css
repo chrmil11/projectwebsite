@@ -185,28 +185,6 @@ p:last-child, .player:last-of-type {
 }
 
 /* State Styles; Media-query dependent styles */
-@media screen and (min-width: 898px) {
-  #page {
-    width: 87%;
-  }
-}
 
-@media screen and (min-width: 1032px) {
-  #page {
-    width: 74%;
-  }
-}
-
-@media screen and (min-width: 1278px) {
-  #page {
-    width: 61%;
-  }
-}
-
-@media screen and (min-width: 1476px) {
-  #page {
-    width: 50%;
-  }
-}
 
 /* Responsive Images */
