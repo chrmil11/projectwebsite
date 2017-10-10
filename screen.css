@@ -203,4 +203,46 @@ p:last-child, .player:last-of-type {
   }
 }
 
+@media screen and (min-width: 880px) {
+  #header, #introduction, #team, #achievements, #footer {
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  #header, #introduction, #team, #achievements, #footer {
+    padding-left: 11%;
+    padding-right: 11%;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  #header, #introduction, #team, #achievements, #footer {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #header, #introduction, #team, #achievements, #footer {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
+
+@media screen and (min-width: 1620px) {
+  #header, #introduction, #team, #achievements, #footer {
+    padding-left: 21%;
+    padding-right: 21%;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #header, #introduction, #team, #achievements, #footer {
+    padding-left: 23%;
+    padding-right: 23%;
+  }
+}
+
 /* Responsive Images */
