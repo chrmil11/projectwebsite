@@ -204,6 +204,9 @@ p:last-child, .player:last-of-type {
 }
 
 @media screen and (min-width: 880px) {
+  html {
+    font-size: 1.3em;
+  }
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 6.25%;
     padding-right: 6.25%;
@@ -218,6 +221,9 @@ p:last-child, .player:last-of-type {
 }
 
 @media screen and (min-width: 1220px) {
+  html {
+    font-size: 1.5em;
+  }
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 15%;
     padding-right: 15%;
@@ -232,6 +238,9 @@ p:last-child, .player:last-of-type {
 }
 
 @media screen and (min-width: 1620px) {
+  html {
+    font-size: 1.667em;
+  }
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 21%;
     padding-right: 21%;
