@@ -133,6 +133,11 @@ ul, ol {
   display: block;
 }
 
+.player-media {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Layout Styles */
 
 #header, #team, #footer {
@@ -208,6 +213,10 @@ p:last-child, .player:last-of-type {
   }
   #team ul {
     text-align: left;
+  }
+  .player {
+    clear: both;
+    float: none;
   }
 }
 
