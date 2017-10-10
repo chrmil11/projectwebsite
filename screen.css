@@ -90,7 +90,6 @@ h1, h2, h3 {
 h1 {
   font-size: 2.779em; /* 55.578 / 20 = 2.779em */
   line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
-  text-align: center;
 }
 
 h2 {
@@ -193,6 +192,22 @@ p:last-child, .player:last-of-type {
   h3 {
     font-size: 1.667em; /* 33.34 / 20 = 1.667em */
     line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
+  }
+}
+
+@media screen and (min-width: 720px) {
+  #team .player-media {
+    width: 36.1111111%; /* 260 / 720 = 0.361111111 */
+    float: left;
+    text-align: center;
+  }
+  #team .player-info {
+    width: 60.2777778%; /* 434 / 720 = 0.602777778*/
+    left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
+    float: left;
+  }
+  #team ul {
+    text-align: left;
   }
 }
 
