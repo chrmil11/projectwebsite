@@ -133,7 +133,7 @@ ul, ol {
   display: block;
 }
 
-.player-media {
+.player-media img {
   display: block;
   margin: 0 auto;
 }
@@ -192,7 +192,7 @@ p:last-child, .player:last-of-type {
 @media screen and (min-width: 418px) {
   h2 {
     font-size: 2.779em; /* 55.578 / 20 = 2.779em */
-    line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */ 
+    line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
   }
   h3 {
     font-size: 1.667em; /* 33.34 / 20 = 1.667em */
