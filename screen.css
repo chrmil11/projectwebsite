@@ -140,7 +140,7 @@ ul, ol {
 
 /* Layout Styles */
 
-#header, #team, #footer {
+#header, #introduction, #team, #achievements, #footer {
   display: table;
   background-color: black;
   color: white;
@@ -151,13 +151,8 @@ ul, ol {
 }
 
 #introduction, #achievements {
-  display: table;
   background-color: white;
   color: black;
-  width: 100%;
-  max-width: none;
-  padding: 1.3em;
-  height: 95vh;
 }
 
 /* Modular Styles */
