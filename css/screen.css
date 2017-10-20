@@ -90,8 +90,8 @@ h1 {
 
 h2 {
   font-size: 1.667em; /* 33.34 / 20 = 1.667em */
-  line-height: 1.16977em; /* 39 / 33.34 = 1.16977 em*/
-  padding-bottom: 0.77984em; /* 26 / 33.34 = 0.77984em */
+  line-height: 1.16977em; /* 39 / 33.34 = 1.16977em */
+  padding-bottom: 0.38992em; /* 13 / 33.34 = 0.38992em */
 }
 
 h3 {
