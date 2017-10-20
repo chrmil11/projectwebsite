@@ -149,7 +149,7 @@ ul, ol {
   display: table;
   width: 100%;
   max-width: none;
-  padding: 1.3em;
+  padding: 1.3em; /* 26 / 20 = 1.3em */
   height: 95vh;
 }
 
@@ -174,7 +174,7 @@ ul, ol {
 
 .player {
   display: block;
-  padding-bottom: 1.3em;
+  padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
 }
 
 p:last-child, .player:last-of-type {
@@ -183,7 +183,7 @@ p:last-child, .player:last-of-type {
 
 #achievements li {
   display: block;
-  padding-top: 0.65em;
+  padding-top: 0.65em; /* 13 / 20 = 0.65em */
 }
 
 /* State Styles; Media-query dependent styles */
@@ -227,7 +227,7 @@ p:last-child, .player:last-of-type {
 
 @media screen and (min-width: 880px) {
   html {
-    font-size: 1.3em;
+    font-size: 1.3em; /* 26 / 20 = 1.3em */
   }
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 6.25%;
@@ -244,7 +244,7 @@ p:last-child, .player:last-of-type {
 
 @media screen and (min-width: 1220px) {
   html {
-    font-size: 1.5em;
+    font-size: 1.5em; /* 30 / 20 = 1.5em */
   }
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 15%;
@@ -261,7 +261,7 @@ p:last-child, .player:last-of-type {
 
 @media screen and (min-width: 1620px) {
   html {
-    font-size: 1.667em;
+    font-size: 1.7em;  /* 34 / 20 = 1.3em */
   }
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 21%;
