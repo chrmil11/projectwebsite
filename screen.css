@@ -136,6 +136,8 @@ ul, ol {
 .player-media img {
   display: block;
   margin: 0 auto;
+  min-width: 160px;
+  max-width: 33%;
 }
 
 .player-media figcaption {
@@ -216,6 +218,9 @@ p:last-child, .player:last-of-type {
     clear: both;
     float: none;
   }
+  .player-media img {
+    min-width: 120px;
+  }
 }
 
 @media screen and (min-width: 818px) {
@@ -249,6 +254,9 @@ p:last-child, .player:last-of-type {
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 15%;
     padding-right: 15%;
+  }
+  .player-media img {
+    min-width: 160px;
   }
 }
 
