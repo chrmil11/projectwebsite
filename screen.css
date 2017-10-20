@@ -138,6 +138,11 @@ ul, ol {
   margin: 0 auto;
 }
 
+.player-media figcaption {
+  text-align: center;
+  padding-bottom: 1.3em;
+}
+
 /* Layout Styles */
 
 #header, #introduction, #team, #achievements, #footer {
