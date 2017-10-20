@@ -72,10 +72,6 @@ html {
   height: 100%;
 }
 
-body {
-  height: 100%;
-}
-
 /* Simple HTML/element selectors */
 /* Typographic styles; colors; spacing */
 #page {
@@ -152,7 +148,7 @@ ul, ol {
   width: 100%;
   max-width: none;
   padding: 1.3em; /* 26 / 20 = 1.3em */
-  height: 95vh;
+  height: 100vh;
 }
 
 #introduction, #achievements {
