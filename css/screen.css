@@ -144,10 +144,11 @@ ul, ol {
 
 #header {
   background-image: url(../test/test-256-256-90.jpeg);
-  /*   background-image: url(../test/test-1920-1080-30.jpeg); */
+/*   background-image: url(../test/test-1920-1080-30.jpeg); */
   background-size: cover;
   width: 100vw;
   resize: both;
+  background-position: center 0; 
 }
 
 /* Layout Styles */
