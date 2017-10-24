@@ -144,6 +144,8 @@ ul, ol {
 
 #header {
   background-image: url(../test/test-256-256-90.jpeg);
+/*   background-image: url(../test/test-872-490-70.jpeg); */
+/*   background-image: url(../test/test-1440-820-50.jpeg); */
 /*   background-image: url(../test/test-1920-1080-30.jpeg); */
   background-size: cover;
   width: 100vw;
