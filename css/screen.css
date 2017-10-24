@@ -133,8 +133,8 @@ ul, ol {
 .player-media img {
   display: block;
   margin: 0 auto;
-  min-width: 160px;
-  max-width: 33%;
+  min-width: 160px; /* NOTE: Wanted the rank logos to start at a viable fixed position, then scale up, */
+  max-width: 33%;   /* but not too large. Tried out different methods, but this worked best for me. */
 }
 
 .player-media figcaption {
