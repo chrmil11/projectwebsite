@@ -143,10 +143,10 @@ ul, ol {
 }
 
 #header {
-  background-image: url(http://www.uvassociates.in/sites/default/files/images/borders/Aqua-black-funky-checker-rectangular-powerpoint-border.png);
+  background-image: url(../test/test-256-256-90.jpeg);
+  /*   background-image: url(../test/test-1920-1080-30.jpeg); */
   background-size: cover;
   width: 100vw;
-  height: 100vh;
   resize: both;
 }
 
