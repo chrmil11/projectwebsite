@@ -143,10 +143,7 @@ ul, ol {
 }
 
 #header {
-  background-image: url(../test/test-256-256-90.jpeg);
-/*   background-image: url(../test/test-872-490-70.jpeg); */
-/*   background-image: url(../test/test-1440-820-50.jpeg); */
-/*   background-image: url(../test/test-1920-1080-30.jpeg); */
+  background-image: url(../img/home-256-256-100.jpeg);
   background-size: cover;
   width: 100vw;
   resize: both;
@@ -207,7 +204,7 @@ p:last-child, .player:last-of-type {
     line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
   }
   #header {
-    background-image: url(../test/test-626-350-80.jpeg);
+    background-image: url(../img/home-626-350-90.jpeg);
   }
 }
 
@@ -233,14 +230,14 @@ p:last-child, .player:last-of-type {
     min-width: 120px;
   }
   #header {
-    background-image: url(../test/test-872-490-70.jpeg);
+    background-image: url(../img/home-872-490-75.jpeg);
   }
 }
 
 @media screen and (min-width: 818px) {
   h1 {
-    font-size: 4.632em; /* 92.648 / 20 = 4.632em */
-    line-height: 1.12253em; /* 104 / 92.648 = 1.12253em */
+    font-size: 2.779em; /* 55.578 / 20 = 2.779em */
+    line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
   }
 }
 
@@ -273,7 +270,7 @@ p:last-child, .player:last-of-type {
     min-width: 160px;
   }
   #header {
-    background-image: url(../test/test-1440-820-50.jpeg);
+    background-image: url(../img/home-1440-820-60.jpeg);
   }
 }
 
@@ -285,9 +282,6 @@ p:last-child, .player:last-of-type {
 }
 
 @media screen and (min-width: 1620px) {
-  html {
-    font-size: 1.7em;  /* 34 / 20 = 1.3em */
-  }
   #header, #introduction, #team, #achievements, #footer {
     padding-left: 21%;
     padding-right: 21%;
@@ -300,7 +294,7 @@ p:last-child, .player:last-of-type {
     padding-right: 23%;
   }
   #header {
-    background-image: url(../test/test-1920-1080-30.jpeg);
+    background-image: url(../img/home-1920-1080-40.jpeg);
   }
 }
 
