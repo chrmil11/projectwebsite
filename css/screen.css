@@ -222,6 +222,15 @@ p:last-child, .player:last-of-type {
   #team ul {
     text-align: left;
   }
+  .flexbox #team .player-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .flexbox .player-media, .flexbox .player-info {
+    float: none;
+    margin: 0;
+    width: auto;
+  }
   .player {
     clear: both;
     float: none;
