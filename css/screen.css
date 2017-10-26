@@ -209,6 +209,9 @@ p:last-child, .player:last-of-type {
 }
 
 @media screen and (min-width: 720px) {
+  #team ul {
+    text-align: left;
+  }
   #team .player-media {
     width: 36.1111111%; /* 260 / 720 = 0.361111111 */
     float: left;
@@ -219,17 +222,26 @@ p:last-child, .player:last-of-type {
     left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
     float: left;
   }
-  #team ul {
-    text-align: left;
-  }
   .flexbox #team .player-content {
     display: flex;
     flex-direction: row;
   }
-  .flexbox .player-media, .flexbox .player-info {
+  .flexbox #team .player-content .player-media,
+  .flexbox #team .player-content .player-info {
     float: none;
     margin: 0;
     width: auto;
+  }
+  .cssgrid #team .player-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3.61111%; /* 26 / 720 = 0.036111 */
+  }
+  .cssgrid #team .player-content .player-media {
+    grid-column: 1 / 4;
+  }
+  .cssgrid #team .player-content .player-info {
+    grid-column: 4 / 9;
   }
   .player {
     clear: both;
