@@ -143,7 +143,7 @@ ul, ol {
   padding-bottom: 1.3em;
 }
 
-#header {
+#header-home {
   background-image: url(../img/home-256-256-100.jpeg);
   background-size: cover;
   width: 100vw;
@@ -153,7 +153,7 @@ ul, ol {
 
 /* Layout Styles */
 
-#header, #introduction, #team, #achievements, #footer {
+#header-home, #introduction, #team, #achievements, #footer {
   display: table;
   width: 100%;
   max-width: none;
@@ -205,7 +205,7 @@ p:last-child {
     font-size: 1.667em; /* 33.34 / 20 = 1.667em */
     line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
   }
-  #header {
+  #header-home {
     background-image: url(../img/home-626-350-90.jpeg);
   }
 }
@@ -259,7 +259,7 @@ p:last-child {
     margin-top: 2.6em;
     min-width: 120px;
   }
-  #header {
+  #header-home {
     background-image: url(../img/home-872-490-75.jpeg);
   }
 }
@@ -275,14 +275,14 @@ p:last-child {
   html {
     font-size: 1.3em; /* 26 / 20 = 1.3em */
   }
-  #header, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer {
     padding-left: 6.25%;
     padding-right: 6.25%;
   }
 }
 
 @media screen and (min-width: 1040px) {
-  #header, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer {
     padding-left: 11%;
     padding-right: 11%;
   }
@@ -292,38 +292,38 @@ p:last-child {
   html {
     font-size: 1.5em; /* 30 / 20 = 1.5em */
   }
-  #header, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer {
     padding-left: 15%;
     padding-right: 15%;
   }
   .player-media img {
     min-width: 160px;
   }
-  #header {
+  #header-home {
     background-image: url(../img/home-1440-820-60.jpeg);
   }
 }
 
 @media screen and (min-width: 1440px) {
-  #header, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer {
     padding-left: 18%;
     padding-right: 18%;
   }
 }
 
 @media screen and (min-width: 1620px) {
-  #header, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer {
     padding-left: 21%;
     padding-right: 21%;
   }
 }
 
 @media screen and (min-width: 1800px) {
-  #header, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer {
     padding-left: 23%;
     padding-right: 23%;
   }
-  #header {
+  #header-home {
     background-image: url(../img/home-1920-1080-40.jpeg);
   }
 }
