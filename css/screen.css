@@ -181,22 +181,29 @@ ul, ol {
   background-color: black;
 }
 
-#header-home, #introduction, #team, #achievements, #footer {
+/* For full viewport screen display */
+#header-home, #introduction, #team, #achievements, #footer,
+#header-about, #header-team, #about, #cca {
   display: table;
   width: 100%;
   max-width: none;
   padding: 1.3em; /* 26 / 20 = 1.3em */
+}
+
+/* For full screen display */
+#header-home, #introduction, #team, #achievements, #footer,
+#header-about, #header-team {
   height: 100vh;
 }
 
-#introduction, #achievements {
+#introduction, #achievements, #cca {
   background-color: white;
   color: black;
 }
 
 /* Modular Styles */
 
-.content {
+.content, .links {
   display: table-cell;
   vertical-align: middle;
   padding: 1em 0;
