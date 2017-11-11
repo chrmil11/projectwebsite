@@ -122,6 +122,19 @@ a:hover, a:target, a:focus {
   color: #f0f;
 }
 
+#navigation a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navigation li:hover {
+  background-color: #ff2600;
+}
+
 p {
   display: block;
   padding-bottom: 1.3em;
@@ -152,6 +165,21 @@ ul, ol {
 }
 
 /* Layout Styles */
+
+#navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#navigation li {
+  width: 33.333333%;
+  float: left;
+  text-align: center;
+  padding: 0.65em;
+  background-color: black;
+}
 
 #header-home, #introduction, #team, #achievements, #footer {
   display: table;
