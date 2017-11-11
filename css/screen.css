@@ -154,10 +154,11 @@ ul, ol {
 /* Layout Styles */
 
 #header, #introduction, #team, #achievements, #footer {
+  display: table;
   width: 100%;
   max-width: none;
   padding: 1.3em; /* 26 / 20 = 1.3em */
-  min-height: 100vh;
+  height: 100vh;
 }
 
 #introduction, #achievements {
@@ -165,13 +166,10 @@ ul, ol {
   color: black;
 }
 
-#team, #achievements {
-  height: 100%;
-}
-
 /* Modular Styles */
 
-#header, #introduction, #team, #achievements {
+.content {
+  display: table-cell;
   vertical-align: middle;
   padding: 1em 0;
 }
@@ -213,7 +211,7 @@ p:last-child, .player:last-of-type {
 }
 
 @media screen and (min-width: 720px) {
-  #team ul {
+  #team h3, #team p small, #team ul {
     text-align: left;
   }
   #team .player-media {
@@ -226,25 +224,25 @@ p:last-child, .player:last-of-type {
     left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
     float: left;
   }
-  .flexbox #team .player-content {
+  .flexbox #team .player {
     display: flex;
     flex-direction: row;
   }
-  .flexbox #team .player-content .player-media,
-  .flexbox #team .player-content .player-info {
+  .flexbox #team .player .player-media,
+  .flexbox #team .player .player-info {
     float: none;
     margin: 0;
     width: auto;
   }
-  .cssgrid #team .player-content {
+  .cssgrid #team .player {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column-gap: 3.61111%; /* 26 / 720 = 0.036111 */
   }
-  .cssgrid #team .player-content .player-media {
+  .cssgrid #team .player .player-media {
     grid-column: 1 / 4;
   }
-  .cssgrid #team .player-content .player-info {
+  .cssgrid #team .player .player-info {
     grid-column: 4 / 9;
   }
   .player {
@@ -252,6 +250,7 @@ p:last-child, .player:last-of-type {
     float: none;
   }
   .player-media img {
+    margin-top: 2.6em;
     min-width: 120px;
   }
   #header {
