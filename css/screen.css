@@ -72,11 +72,12 @@ html {
   height: 100%;
 }
 
-/* Simple HTML/element selectors */
-/* Typographic styles; colors; spacing */
-#page {
+body {
   margin: 0 auto;
 }
+
+/* Simple HTML/element selectors */
+/* Typographic styles; colors; spacing */
 
 h1, h2, h3 {
   font-family: 'Righteous', 'Muli', Helvetica, Arial, sans-serif;
@@ -153,11 +154,10 @@ ul, ol {
 /* Layout Styles */
 
 #header, #introduction, #team, #achievements, #footer {
-  display: table;
   width: 100%;
   max-width: none;
   padding: 1.3em; /* 26 / 20 = 1.3em */
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #introduction, #achievements {
@@ -165,10 +165,13 @@ ul, ol {
   color: black;
 }
 
+#team, #achievements {
+  height: 100%;
+}
+
 /* Modular Styles */
 
-.content {
-  display: table-cell;
+#header, #introduction, #team, #achievements {
   vertical-align: middle;
   padding: 1em 0;
 }
@@ -176,6 +179,7 @@ ul, ol {
 #footer {
   text-align: center;
   font-size: 0.9em; /* 18 / 20 = 0.9em */
+  min-height: 0;
   height: 100%;
 }
 
