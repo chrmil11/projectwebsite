@@ -214,6 +214,12 @@ p:last-child {
   #team h3, #team p small, #team ul {
     text-align: left;
   }
+  #team h3 + p {
+    padding-bottom: 0.65em;
+  }
+  #team ul {
+    padding-left: 0.65em;
+  }
   #team .player-media {
     width: 36.1111111%; /* 260 / 720 = 0.361111111 */
     float: left;
