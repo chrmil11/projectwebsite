@@ -186,7 +186,7 @@ ul, ol {
   padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
 }
 
-p:last-child, .player:last-of-type {
+p:last-child {
   padding-bottom: 0;
 }
 
