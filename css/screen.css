@@ -99,14 +99,12 @@ h3 {
   font-size: 1.3em; /* 26 / 20 = 1.3em */
   line-height: 1.5em; /* 39 / 26 = 1.5em */
 }
-
-#team p, #achievements p, #team ul, #achievements ul {
-  text-align: center;
-}
-
-.player small {
+h4 {
   display: block;
   font-weight: bold;
+}
+
+#team p, #achievements p, #team ul, #achievements ul {
   text-align: center;
 }
 
@@ -140,6 +138,10 @@ p {
   padding-bottom: 1.3em;
 }
 
+li {
+  text-align: left;
+}
+
 ul, ol {
   display: block;
 }
@@ -155,6 +157,8 @@ ul, ol {
   text-align: center;
   padding-bottom: 1.3em;
 }
+
+
 
 #header-home {
   background-image: url(../img/home-256-256-100.jpeg);
@@ -245,16 +249,19 @@ p:last-child {
   }
 }
 
+@media screen and (min-width: 560px) {
+  #team .player-info {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  #team .player-info {
+    padding: 0 17%
+  }
+}
+
 @media screen and (min-width: 720px) {
-  #team h3, #team p small, #team ul {
-    text-align: left;
-  }
-  #team h3 + p {
-    padding-bottom: 0.65em;
-  }
-  #team ul {
-    padding-left: 0.65em;
-  }
   #team .player-media {
     width: 36.1111111%; /* 260 / 720 = 0.361111111 */
     float: left;
@@ -262,9 +269,11 @@ p:last-child {
   }
   #team .player-info {
     width: 60.2777778%; /* 434 / 720 = 0.602777778*/
+    padding: 0;
     left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
     float: left;
   }
+  /*
   .flexbox #team .player {
     display: flex;
     flex-direction: row;
@@ -278,20 +287,23 @@ p:last-child {
   .cssgrid #team .player {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-column-gap: 3.61111%; /* 26 / 720 = 0.036111 */
+    grid-column-gap: 3.61111%;
   }
   .cssgrid #team .player .player-media {
     grid-column: 1 / 4;
   }
   .cssgrid #team .player .player-info {
     grid-column: 4 / 9;
-  }
+  } 
+  */
   .player {
     clear: both;
     float: none;
+    h3 {
+      text-align: center;
+    }
   }
   .player-media img {
-    margin-top: 2.6em;
     min-width: 120px;
   }
   #header-home {
