@@ -134,6 +134,7 @@ a:hover, a:target, a:focus {
 
 #navigation li:hover {
   background-color: #ff2600;
+  border-top: 8px #ff2600 solid;
 }
 
 p {
@@ -160,8 +161,6 @@ ul, ol {
   text-align: center;
   padding-bottom: 1.3em;
 }
-
-
 
 #header-home {
   background-image: url(../img/home-256-256-100.jpeg);
