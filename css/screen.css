@@ -194,6 +194,7 @@ ul, ol {
   width: 100%;
   max-width: none;
   height: 100vh;
+  padding: 1.3em;
 }
 
 /* Match height to content, not viewport height */
