@@ -207,9 +207,25 @@ ul, ol {
   color: black;
 }
 
+/* Embedding Youtube videos for responsive design */
+#introduction {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+#introduction iframe {
+  position: absolute;
+  top: 0;
+  left: 1.3em;
+  width: 92.77777%; /* 1 - 2*0.0361111 = 0.9277777 */
+  height: 100%;
+}
+
 /* Modular Styles */
 
-.content, .links {
+.content, .links, #introduction iframe {
   display: table-cell;
   vertical-align: middle;
   padding: 1em 0;
