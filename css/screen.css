@@ -103,6 +103,9 @@ h4 {
   display: block;
   font-weight: bold;
 }
+#achievements h4 {
+  text-align: center;
+}
 
 #team p, #achievements p, #team ul, #achievements ul {
   text-align: center;
@@ -192,12 +195,12 @@ ul, ol {
   width: 100%;
   max-width: none;
   padding: 1.3em; /* 26 / 20 = 1.3em */
+  height: 100vh;
 }
 
-/* For full screen display */
-#header-home, #introduction, #team, #achievements, #footer,
-#header-about, #header-team, #about, #cca {
-  height: 100vh;
+/* Match height to content, not viewport height */
+#team, #achievements {
+  height: 100%;
 }
 
 #introduction, #achievements, #header-about, #cca {
@@ -232,6 +235,22 @@ p:last-child {
 #achievements li {
   display: block;
   padding-top: 0.65em; /* 13 / 20 = 0.65em */
+}
+
+#achievements p {
+  padding-bottom: 0.65em; /* 13 / 20 = 0.65em */
+}
+
+#achievements h2 + p, #achievements p + p {
+  padding-bottom: 0;
+}
+
+#achievement-intro {
+  padding: 1.3em 0 2.6em;
+}
+
+#achievements li:last-child {
+  padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
 }
 
 /* State Styles; Media-query dependent styles */
