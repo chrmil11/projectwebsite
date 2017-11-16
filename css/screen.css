@@ -230,7 +230,7 @@ ul, ol {
 /* === Modular Styles === */
 
 /* Centering content in the 'section' */
-.content, .links, #introduction iframe {
+.content, #introduction iframe {
   display: table-cell;
   vertical-align: middle;
   padding: 1.3em 0;
@@ -252,10 +252,6 @@ ul, ol {
   padding-bottom: 2.6em; /* 52 / 20 = 2.6em */
 }
 
-p:last-child {
-  padding-bottom: 0;
-}
-
 #achievements li {
   display: block;
   padding-top: 0.65em; /* 13 / 20 = 0.65em */
@@ -270,7 +266,7 @@ p:last-child {
 }
 
 #achievement-intro {
-  padding: 1.3em 0 2.6em;
+  padding: 1.3em 0;
 }
 
 #achievements li:last-child {
