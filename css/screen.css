@@ -261,7 +261,7 @@ ul, ol {
   padding-bottom: 0.65em; /* 13 / 20 = 0.65em */
 }
 
-#achievements h2 + p, #achievements p + p {
+#achievements h2 + p, #achievements p + p, #footer p {
   padding-bottom: 0;
 }
 
