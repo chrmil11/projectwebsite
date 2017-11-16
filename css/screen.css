@@ -52,7 +52,7 @@ table {
 
 /* Fonts that look good: Muli, Titillium Web, Helvetica */
 
-/* Base Styles */
+/* === Base Styles === */
 * {
   box-sizing: border-box;
 }
@@ -76,7 +76,7 @@ body {
   margin: 0 auto;
 }
 
-/* Simple HTML/element selectors */
+/* === Simple HTML/element selectors === */
 /* Typographic styles; colors; spacing */
 
 h1, h2, h3 {
@@ -170,7 +170,7 @@ ul, ol {
   background-position: center 0;
 }
 
-/* Layout Styles */
+/* === Layout Styles === */
 
 #navigation {
   position: absolute;
@@ -193,13 +193,12 @@ ul, ol {
   display: table;
   width: 100%;
   max-width: none;
-  height: 100vh;
   padding: 1.3em;
 }
 
-/* Match height to content, not viewport height */
-#team, #achievements {
-  height: 100%;
+/* Full height screen display */
+#header-home, #header-about, #header-team {
+  height: 100vh;
 }
 
 #introduction, #achievements, #header-about, #cca {
@@ -223,8 +222,9 @@ ul, ol {
   height: 100%;
 }
 
-/* Modular Styles */
+/* === Modular Styles === */
 
+/* Centering content in the 'section' */
 .content, .links, #introduction iframe {
   display: table-cell;
   vertical-align: middle;
@@ -268,7 +268,7 @@ p:last-child {
   padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
 }
 
-/* State Styles; Media-query dependent styles */
+/* === State Styles; Media-query dependent styles === */
 @media screen and (min-width: 418px) {
   h2 {
     font-size: 2.779em; /* 55.578 / 20 = 2.779em */
