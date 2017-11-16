@@ -366,14 +366,16 @@ p:last-child {
   html {
     font-size: 1.3em; /* 26 / 20 = 1.3em */
   }
-  #header-home, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer,
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
     padding-left: 6.25%;
     padding-right: 6.25%;
   }
 }
 
 @media screen and (min-width: 1040px) {
-  #header-home, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer,
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
     padding-left: 11%;
     padding-right: 11%;
   }
@@ -389,7 +391,8 @@ p:last-child {
   html {
     font-size: 1.5em; /* 30 / 20 = 1.5em */
   }
-  #header-home, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer,
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -402,14 +405,16 @@ p:last-child {
 }
 
 @media screen and (min-width: 1440px) {
-  #header-home, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer,
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
     padding-left: 18%;
     padding-right: 18%;
   }
 }
 
 @media screen and (min-width: 1620px) {
-  #header-home, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer,
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
     padding-left: 21%;
     padding-right: 21%;
   }
@@ -422,7 +427,8 @@ p:last-child {
 }
 
 @media screen and (min-width: 1800px) {
-  #header-home, #introduction, #team, #achievements, #footer {
+  #header-home, #introduction, #team, #achievements, #footer,
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
     padding-left: 23%;
     padding-right: 23%;
   }
