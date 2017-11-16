@@ -103,6 +103,9 @@ h4 {
   display: block;
   font-weight: bold;
 }
+#chrmil11 h3, #geom h3, #awakenedfear46 h3 {
+    text-align: left;
+}
 #achievements h4 {
   text-align: center;
 }
@@ -242,9 +245,9 @@ ul, ol {
   border-top: 1px white solid;
 }
 
-.player {
+.player, #chrmil11, #geom, #awakenedfear46 {
   display: block;
-  padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
+  padding-bottom: 2.6em; /* 26 / 20 = 1.3em */
 }
 
 p:last-child {
@@ -288,24 +291,24 @@ p:last-child {
 }
 
 @media screen and (min-width: 560px) {
-  #team .player-info {
+  .player-info {
     padding: 0 10%;
   }
 }
 
 @media screen and (min-width: 640px) {
-  #team .player-info {
+  .player-info {
     padding: 0 17%
   }
 }
 
 @media screen and (min-width: 720px) {
-  #team .player-media {
+  .player-media {
     width: 36.1111111%; /* 260 / 720 = 0.361111111 */
     float: left;
     text-align: center;
   }
-  #team .player-info {
+  .player-info {
     width: 60.2777778%; /* 434 / 720 = 0.602777778*/
     padding: 0;
     left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
