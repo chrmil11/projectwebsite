@@ -79,7 +79,7 @@ body {
 /* === Simple HTML/element selectors === */
 /* Typographic styles; colors; spacing */
 
-h1, h2, h3 {
+h1, h2, .player h3, #achievements h3 {
   font-family: 'Righteous', 'Muli', Helvetica, Arial, sans-serif;
   text-align: center;
 }
@@ -103,9 +103,10 @@ h4 {
   display: block;
   font-weight: bold;
 }
-#chrmil11 h3, #geom h3, #awakenedfear46 h3 {
-    text-align: left;
+#about h3, #cca h3, #chrmil11 h3, #geom h3, #awakenedfear46 h3 {
+  font-weight: bold;
 }
+
 #achievements h4 {
   text-align: center;
 }
@@ -140,7 +141,7 @@ a:hover, a:target, a:focus {
   border-top: 8px #ff2600 solid;
 }
 
-p, .player-media {
+p {
   display: block;
   padding-bottom: 1.3em;
 }
@@ -196,7 +197,7 @@ ul, ol {
   display: table;
   width: 100%;
   max-width: none;
-  padding: 1.3em;
+  padding: 2.6em 1.3em;
 }
 
 /* Full height screen display */
@@ -239,17 +240,13 @@ ul, ol {
 #footer {
   text-align: center;
   font-size: 0.9em; /* 18 / 20 = 0.9em */
-  min-height: 0;
   height: 100%;
   border-top: 1px white solid;
+  padding: 1.3em 0;
 }
 
-.player {
-  padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
-}
-
-#chrmil11, #geom, #awakenedfear46 {
-  padding-bottom: 2.6em; /* 52 / 20 = 2.6em */
+#cca-achievements, #tourney-achievements, .player {
+  padding-top: 1.3em; /* 26 / 20 = 1.3em */
 }
 
 #achievements li {
@@ -261,16 +258,8 @@ ul, ol {
   padding-bottom: 0.65em; /* 13 / 20 = 0.65em */
 }
 
-#achievements h2 + p, #achievements p + p, #footer p {
+#achievements h2 + p, #achievements p + p, #achievements p:last-child, #footer p {
   padding-bottom: 0;
-}
-
-#achievement-intro {
-  padding: 1.3em 0;
-}
-
-#achievements li:last-child {
-  padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
 }
 
 /* === State Styles; Media-query dependent styles; Responsive Images === */
@@ -377,7 +366,8 @@ ul, ol {
     font-size: 1.3em; /* 26 / 20 = 1.3em */
   }
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #about, #cca {
     padding-left: 6.25%;
     padding-right: 6.25%;
   }
@@ -385,7 +375,8 @@ ul, ol {
 
 @media screen and (min-width: 1040px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #about, #cca {
     padding-left: 11%;
     padding-right: 11%;
   }
@@ -402,7 +393,8 @@ ul, ol {
     font-size: 1.5em; /* 30 / 20 = 1.5em */
   }
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #about, #cca {
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -416,7 +408,8 @@ ul, ol {
 
 @media screen and (min-width: 1440px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #about, #cca {
     padding-left: 18%;
     padding-right: 18%;
   }
@@ -424,7 +417,8 @@ ul, ol {
 
 @media screen and (min-width: 1620px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #about, #cca {
     padding-left: 21%;
     padding-right: 21%;
   }
@@ -438,7 +432,8 @@ ul, ol {
 
 @media screen and (min-width: 1800px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46 {
+  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #about, #cca {
     padding-left: 23%;
     padding-right: 23%;
   }
