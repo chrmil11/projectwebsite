@@ -187,9 +187,10 @@ ul, ol {
   background-color: black;
 }
 
-/* For full viewport screen display */
+/* General section styling */
 #header-home, #introduction, #team, #achievements, #footer,
-#header-about, #header-team, #about, #cca {
+#header-about, #header-team, #about, #cca, #chrmil11, 
+#geom, #awakenedfear46 {
   display: table;
   width: 100%;
   max-width: none;
@@ -201,7 +202,9 @@ ul, ol {
   height: 100vh;
 }
 
-#introduction, #achievements, #header-about, #cca {
+/* Alternate color */
+#introduction, #achievements, #header-about, #cca,
+#header-team, #geom {
   background-color: white;
   color: black;
 }
@@ -236,6 +239,7 @@ ul, ol {
   font-size: 0.9em; /* 18 / 20 = 0.9em */
   min-height: 0;
   height: 100%;
+  border-top: 1px white solid;
 }
 
 .player {
@@ -268,7 +272,7 @@ p:last-child {
   padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
 }
 
-/* === State Styles; Media-query dependent styles === */
+/* === State Styles; Media-query dependent styles; Responsive Images === */
 @media screen and (min-width: 418px) {
   h2 {
     font-size: 2.779em; /* 55.578 / 20 = 2.779em */
@@ -420,5 +424,3 @@ p:last-child {
     background-image: url(../img/home-1920-1080-40.jpeg);
   }
 }
-
-/* Responsive Images */
