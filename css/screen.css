@@ -162,7 +162,6 @@ ul, ol {
 
 .player-media figcaption {
   text-align: center;
-  padding-bottom: 1.3em;
 }
 
 #header-home {
@@ -234,7 +233,7 @@ ul, ol {
 .content, .links, #introduction iframe {
   display: table-cell;
   vertical-align: middle;
-  padding: 1em 0;
+  padding: 1.3em 0;
 }
 
 #footer {
@@ -245,8 +244,12 @@ ul, ol {
   border-top: 1px white solid;
 }
 
-.player, #chrmil11, #geom, #awakenedfear46 {
-  padding-bottom: 2.6em; /* 26 / 20 = 1.3em */
+.player {
+  padding-bottom: 1.3em; /* 26 / 20 = 1.3em */
+}
+
+#chrmil11, #geom, #awakenedfear46 {
+  padding-bottom: 2.6em; /* 52 / 20 = 2.6em */
 }
 
 p:last-child {
@@ -302,16 +305,20 @@ p:last-child {
 }
 
 @media screen and (min-width: 720px) {
-  .player-media {
+  #chrmil11 .player-media, #geom .player-media, #awakenedfear46 .player-media {
     width: 36.1111111%; /* 260 / 720 = 0.361111111 */
     float: left;
     text-align: center;
   }
-  .player-info {
+  #chrmil11 .player-info, #geom .player-info, #awakenedfear46 .player-info {
     width: 60.2777778%; /* 434 / 720 = 0.602777778*/
     padding: 0;
     left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
     float: left;
+  }
+  .player h3 {
+    font-size: 2.2em; /* 44 / 20 = 2.2em */
+    line-height: 1.18182em; /* 52 / 44 = 1.1818181.. em */
   }
   /*
   .flexbox #team .player {
@@ -336,7 +343,7 @@ p:last-child {
     grid-column: 4 / 9;
   }
   */
-  .player, #chrmil11, #geom, #awakenedfear46, #footer {
+  #achievements, #chrmil11, #geom, #awakenedfear46, #footer {
     clear: both;
     float: none;
   }
