@@ -111,7 +111,7 @@ h4 {
   text-align: center;
 }
 
-li strong {
+strong {
   font-weight: bold;
 }
 
@@ -328,7 +328,7 @@ p:last-child {
   }
   .cssgrid #team .player .player-info {
     grid-column: 4 / 9;
-  } 
+  }
   */
   .player {
     clear: both;
