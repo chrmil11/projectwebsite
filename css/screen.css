@@ -246,7 +246,6 @@ ul, ol {
 }
 
 .player, #chrmil11, #geom, #awakenedfear46 {
-  display: block;
   padding-bottom: 2.6em; /* 26 / 20 = 1.3em */
 }
 
@@ -277,6 +276,12 @@ p:last-child {
 
 /* === State Styles; Media-query dependent styles; Responsive Images === */
 @media screen and (min-width: 418px) {
+  #header-home {
+    background-image: url(../img/home-626-350-90.jpeg);
+  }
+}
+
+@media screen and (min-width: 560px) {
   h2 {
     font-size: 2.779em; /* 55.578 / 20 = 2.779em */
     line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
@@ -285,12 +290,6 @@ p:last-child {
     font-size: 1.667em; /* 33.34 / 20 = 1.667em */
     line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
   }
-  #header-home {
-    background-image: url(../img/home-626-350-90.jpeg);
-  }
-}
-
-@media screen and (min-width: 560px) {
   .player-info {
     padding: 0 10%;
   }
@@ -337,12 +336,9 @@ p:last-child {
     grid-column: 4 / 9;
   }
   */
-  .player {
+  .player, #chrmil11, #geom, #awakenedfear46, #footer {
     clear: both;
     float: none;
-    h3 {
-      text-align: center;
-    }
   }
   .player-media img {
     min-width: 120px;
