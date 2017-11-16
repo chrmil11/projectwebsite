@@ -140,7 +140,7 @@ a:hover, a:target, a:focus {
   border-top: 8px #ff2600 solid;
 }
 
-p {
+p, .player-media {
   display: block;
   padding-bottom: 1.3em;
 }
@@ -191,7 +191,7 @@ ul, ol {
 
 /* General section styling */
 #header-home, #introduction, #team, #achievements, #footer,
-#header-about, #header-team, #about, #cca, #chrmil11, 
+#header-about, #header-team, #about, #cca, #chrmil11,
 #geom, #awakenedfear46 {
   display: table;
   width: 100%;
@@ -280,10 +280,16 @@ ul, ol {
   }
 }
 
+@media screen and (min-width: 496px) {
+  .player-info {
+    padding: 0 5%;
+  }
+}
+
 @media screen and (min-width: 560px) {
   h2 {
-    font-size: 2.779em; /* 55.578 / 20 = 2.779em */
-    line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
+    font-size: 2.2em; /* 44 / 20 = 2.2em */
+    line-height: 1.18182em; /* 52 / 44 = 1.1818181.. em */
   }
   .player-info {
     padding: 0 10%;
@@ -307,6 +313,10 @@ ul, ol {
     padding: 0;
     left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
     float: left;
+  }
+  h2 {
+    font-size: 2.779em; /* 55.578 / 20 = 2.779em */
+    line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
   }
   .player h3 {
     font-size: 2.2em; /* 44 / 20 = 2.2em */
