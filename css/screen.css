@@ -103,7 +103,7 @@ h4 {
   display: block;
   font-weight: bold;
 }
-#about h3, #cca h3, #team-members h3 {
+.description h3, #team-members h3 {
   font-weight: bold;
 }
 
@@ -192,7 +192,7 @@ ul, ol {
 
 /* General section styling */
 #header-home, #introduction, #team, #achievements, #footer,
-#header-about, #header-team, #about, #cca, #team-members .player {
+#header-about, #header-team, .description, #team-members .player {
   display: table;
   width: 100%;
   max-width: none;
@@ -205,8 +205,8 @@ ul, ol {
 }
 
 /* Alternate color */
-#introduction, #achievements, #header-about, #cca,
-#header-team, #team-members .player:nth-child(2n) {
+#introduction, #achievements, .description:nth-child(2n),
+#team-members .player:nth-child(2n) {
   background-color: white;
   color: black;
 }
@@ -366,8 +366,7 @@ ul, ol {
     font-size: 1.3em; /* 26 / 20 = 1.3em */
   }
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #team-members .player,
-  #about, #cca {
+  #header-about, #header-team, .description, #team-members .player {
     padding-left: 6.25%;
     padding-right: 6.25%;
   }
@@ -375,8 +374,7 @@ ul, ol {
 
 @media screen and (min-width: 1040px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #team-members .player,
-  #about, #cca {
+  #header-about, #header-team, .description, #team-members .player {
     padding-left: 11%;
     padding-right: 11%;
   }
@@ -393,8 +391,7 @@ ul, ol {
     font-size: 1.5em; /* 30 / 20 = 1.5em */
   }
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #team-members .player,
-  #about, #cca {
+  #header-about, #header-team, .description, #team-members .player {
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -408,8 +405,7 @@ ul, ol {
 
 @media screen and (min-width: 1440px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #team-members .player,
-  #about, #cca {
+  #header-about, #header-team, .description, #team-members .player {
     padding-left: 18%;
     padding-right: 18%;
   }
@@ -417,8 +413,7 @@ ul, ol {
 
 @media screen and (min-width: 1620px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #team-members .player,
-  #about, #cca {
+  #header-about, #header-team, .description, #team-members .player {
     padding-left: 21%;
     padding-right: 21%;
   }
@@ -432,8 +427,7 @@ ul, ol {
 
 @media screen and (min-width: 1800px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #team-members .player,
-  #about, #cca {
+  #header-about, #header-team, .description, #team-members .player {
     padding-left: 23%;
     padding-right: 23%;
   }
