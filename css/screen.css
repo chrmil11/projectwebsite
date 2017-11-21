@@ -165,7 +165,7 @@ ul, ol {
   text-align: center;
 }
 
-#header-home {
+#header-home, #header-about, #header-team {
   background-image: url(../img/home-256-256-100.jpeg);
   background-size: cover;
   width: 100vw;
@@ -263,7 +263,7 @@ ul, ol {
 
 /* === State Styles; Media-query dependent styles; Responsive Images === */
 @media screen and (min-width: 418px) {
-  #header-home {
+  #header-home, #header-about, #header-team {
     background-image: url(../img/home-626-350-90.jpeg);
   }
 }
@@ -341,7 +341,7 @@ ul, ol {
   .player-media img {
     min-width: 120px;
   }
-  #header-home {
+  #header-home, #header-about, #header-team {
     background-image: url(../img/home-872-490-75.jpeg);
   }
 }
@@ -398,7 +398,7 @@ ul, ol {
   .player-media img {
     min-width: 160px;
   }
-  #header-home {
+  #header-home, #header-about, #header-team {
     background-image: url(../img/home-1440-820-60.jpeg);
   }
 }
@@ -431,7 +431,7 @@ ul, ol {
     padding-left: 23%;
     padding-right: 23%;
   }
-  #header-home {
+  #header-home, #header-about, #header-team {
     background-image: url(../img/home-1920-1080-40.jpeg);
   }
 }
