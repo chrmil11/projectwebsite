@@ -250,14 +250,15 @@ ul, ol {
 
 #achievements li {
   display: block;
-  padding-top: 0.65em; /* 13 / 20 = 0.65em */
+  padding-bottom: 1.3em; /* 13 / 20 = 0.65em */
 }
 
 #achievements p, #team-members .player-media {
   padding-bottom: 0.65em; /* 13 / 20 = 0.65em */
 }
 
-#achievements h2 + p, #achievements p + p, #achievements p:last-child, #footer p {
+#achievements h2 + p, #achievements p + p, #achievements p:last-child,
+#achievements li:last-child, #footer p {
   padding-bottom: 0;
 }
 
