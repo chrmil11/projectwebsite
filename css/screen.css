@@ -165,6 +165,10 @@ ul, ol {
   text-align: center;
 }
 
+img#fb {
+  background-color: white;
+}
+
 #header-home, #header-about, #header-team {
   background-image: url(../img/home-256-256-100.jpeg);
   background-size: cover;
@@ -227,6 +231,16 @@ ul, ol {
   height: 100%;
 }
 
+.links li {
+  text-align: center;
+  font-size: 0.8em; /* 16 / 20 = 0.8em */
+}
+
+.links img {
+  width: 33%;
+}
+
+
 /* === Modular Styles === */
 
 /* Centering content in the 'section' */
@@ -262,10 +276,31 @@ ul, ol {
   padding-bottom: 0;
 }
 
+.links li + li {
+  padding-top: 1.5em; /* 24 / 16 = 1.5em */ 
+}
+
 /* === State Styles; Media-query dependent styles; Responsive Images === */
 @media screen and (min-width: 418px) {
   #header-home, #header-about, #header-team {
     background-image: url(../img/home-626-350-90.jpeg);
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .links li {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-left: 10%;
+  }
+
+  .links img {
+    width: 100%;
+  }
+  
+  .links li + li {
+    padding-top: 0;
   }
 }
 
