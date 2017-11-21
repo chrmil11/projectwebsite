@@ -79,7 +79,7 @@ body {
 /* === Simple HTML/element selectors === */
 /* Typographic styles; colors; spacing */
 
-h1, h2, .player h3, #achievements h3 {
+h1, h2, #team h3, #achievements h3 {
   font-family: 'Righteous', 'Muli', Helvetica, Arial, sans-serif;
   text-align: center;
 }
@@ -89,7 +89,7 @@ h1 {
   line-height: 1.16953em; /* 65 / 55.578 = 1.16953em */
 }
 
-h2, .player h3 {
+h2, #team .player h3 {
   font-size: 1.667em; /* 33.34 / 20 = 1.667em */
   line-height: 1.16977em; /* 39 / 33.34 = 1.16977em */
   padding-bottom: 0.38992em; /* 13 / 33.34 = 0.38992em */
@@ -103,7 +103,7 @@ h4 {
   display: block;
   font-weight: bold;
 }
-#about h3, #cca h3, #chrmil11 h3, #geom h3, #awakenedfear46 h3 {
+#about h3, #cca h3, #team-members h3 {
   font-weight: bold;
 }
 
@@ -192,8 +192,7 @@ ul, ol {
 
 /* General section styling */
 #header-home, #introduction, #team, #achievements, #footer,
-#header-about, #header-team, #about, #cca, #chrmil11,
-#geom, #awakenedfear46 {
+#header-about, #header-team, #about, #cca, #team-members .player {
   display: table;
   width: 100%;
   max-width: none;
@@ -207,7 +206,7 @@ ul, ol {
 
 /* Alternate color */
 #introduction, #achievements, #header-about, #cca,
-#header-team, #geom {
+#header-team, #team-members .player:nth-child(2n) {
   background-color: white;
   color: black;
 }
@@ -254,7 +253,7 @@ ul, ol {
   padding-top: 0.65em; /* 13 / 20 = 0.65em */
 }
 
-#achievements p {
+#achievements p, #team-members .player-media {
   padding-bottom: 0.65em; /* 13 / 20 = 0.65em */
 }
 
@@ -292,12 +291,12 @@ ul, ol {
 }
 
 @media screen and (min-width: 720px) {
-  #chrmil11 .player-media, #geom .player-media, #awakenedfear46 .player-media {
+  #team-members .player .player-media {
     width: 36.1111111%; /* 260 / 720 = 0.361111111 */
     float: left;
     text-align: center;
   }
-  #chrmil11 .player-info, #geom .player-info, #awakenedfear46 .player-info {
+  #team-members .player .player-info {
     width: 60.2777778%; /* 434 / 720 = 0.602777778*/
     padding: 0;
     left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
@@ -307,9 +306,10 @@ ul, ol {
     font-size: 2.779em; /* 55.578 / 20 = 2.779em */
     line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
   }
-  .player h3 {
+  #team .player h3 {
     font-size: 2.2em; /* 44 / 20 = 2.2em */
     line-height: 1.18182em; /* 52 / 44 = 1.1818181.. em */
+    padding-top: 0;
   }
   /*
   .flexbox #team .player {
@@ -334,7 +334,7 @@ ul, ol {
     grid-column: 4 / 9;
   }
   */
-  #achievements, #chrmil11, #geom, #awakenedfear46, #footer {
+  #achievements, #team-members .player, #footer {
     clear: both;
     float: none;
   }
@@ -355,7 +355,7 @@ ul, ol {
     font-size: 2.779em; /* 55.578 / 20 = 2.779em */
     line-height: 1.40343em; /* 78 / 55.578 = 1.40343em */
   }
-  .player h3 {
+  #team .player h3 {
     font-size: 1.667em; /* 33.34 / 20 = 1.667em */
     line-height: 1.5597em; /* 52 / 33.34 = 1.5597 em */
   }
@@ -366,7 +366,7 @@ ul, ol {
     font-size: 1.3em; /* 26 / 20 = 1.3em */
   }
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #header-about, #header-team, #team-members .player,
   #about, #cca {
     padding-left: 6.25%;
     padding-right: 6.25%;
@@ -375,7 +375,7 @@ ul, ol {
 
 @media screen and (min-width: 1040px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #header-about, #header-team, #team-members .player,
   #about, #cca {
     padding-left: 11%;
     padding-right: 11%;
@@ -393,7 +393,7 @@ ul, ol {
     font-size: 1.5em; /* 30 / 20 = 1.5em */
   }
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #header-about, #header-team, #team-members .player,
   #about, #cca {
     padding-left: 15%;
     padding-right: 15%;
@@ -408,7 +408,7 @@ ul, ol {
 
 @media screen and (min-width: 1440px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #header-about, #header-team, #team-members .player,
   #about, #cca {
     padding-left: 18%;
     padding-right: 18%;
@@ -417,7 +417,7 @@ ul, ol {
 
 @media screen and (min-width: 1620px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #header-about, #header-team, #team-members .player,
   #about, #cca {
     padding-left: 21%;
     padding-right: 21%;
@@ -432,7 +432,7 @@ ul, ol {
 
 @media screen and (min-width: 1800px) {
   #header-home, #introduction, #team, #achievements, #footer,
-  #header-about, #header-team, #chrmil11, #geom, #awakenedfear46,
+  #header-about, #header-team, #team-members .player,
   #about, #cca {
     padding-left: 23%;
     padding-right: 23%;
