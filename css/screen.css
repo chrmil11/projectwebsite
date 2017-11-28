@@ -169,8 +169,24 @@ img#fb {
   background-color: white;
 }
 
-#header-home, #header-about, #header-team {
+#header-home {
   background-image: url(../img/home-256-256-100.jpeg);
+  background-size: cover;
+  width: 100vw;
+  resize: both;
+  background-position: center 0;
+}
+
+#header-about {
+  background-image: url(../img/about-256-256-100.jpeg);
+  background-size: cover;
+  width: 100vw;
+  resize: both;
+  background-position: center 0;
+}
+
+#header-team {
+  background-image: url(../img/team-256-256-100.jpeg);
   background-size: cover;
   width: 100vw;
   resize: both;
@@ -282,8 +298,14 @@ img#fb {
 
 /* === State Styles; Media-query dependent styles; Responsive Images === */
 @media screen and (min-width: 418px) {
-  #header-home, #header-about, #header-team {
+  #header-home {
     background-image: url(../img/home-626-350-90.jpeg);
+  }
+  #header-about {
+    background-image: url(../img/about-626-350-90.jpeg);
+  }
+  #header-team {
+    background-image: url(../img/team-626-350-90.jpeg);
   }
 }
 
@@ -294,11 +316,9 @@ img#fb {
     text-align: center;
     padding-left: 10%;
   }
-
   .links img {
     width: 100%;
   }
-  
   .links li + li {
     padding-top: 0;
   }
@@ -377,8 +397,14 @@ img#fb {
   .player-media img {
     min-width: 120px;
   }
-  #header-home, #header-about, #header-team {
+  #header-home {
     background-image: url(../img/home-872-490-75.jpeg);
+  }
+  #header-about {
+    background-image: url(../img/about-872-490-75.jpeg);
+  }
+  #header-team {
+    background-image: url(../img/team-872-490-75.jpeg);
   }
   .link-logo {
     font-size: 1.125em; /* 18 / 16 = 1.125em */
@@ -440,8 +466,14 @@ img#fb {
   .player-media img {
     min-width: 160px;
   }
-  #header-home, #header-about, #header-team {
+  #header-home {
     background-image: url(../img/home-1440-820-60.jpeg);
+  }
+  #header-about {
+    background-image: url(../img/about-1440-820-60.jpeg);
+  }
+  #header-team {
+    background-image: url(../img/team-1440-820-60.jpeg);
   }
 }
 
@@ -473,7 +505,13 @@ img#fb {
     padding-left: 23%;
     padding-right: 23%;
   }
-  #header-home, #header-about, #header-team {
+  #header-home {
     background-image: url(../img/home-1920-1080-40.jpeg);
+  }
+  #header-about {
+    background-image: url(../img/about-1920-1080-40.jpeg);
+  }
+  #header-team {
+    background-image: url(../img/team-1920-1080-40.jpeg);
   }
 }
