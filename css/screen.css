@@ -251,11 +251,10 @@ img#fb {
   text-align: center;
   font-size: 0.8em; /* 16 / 20 = 0.8em */
 }
-
 .links img {
-  width: 33%;
+  width: 20%;
+  min-width: 64px;
 }
-
 
 /* === Modular Styles === */
 
@@ -309,7 +308,7 @@ img#fb {
   }
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 482px) {
   .links li {
     float: left;
     width: 30%;
@@ -317,7 +316,8 @@ img#fb {
     padding-left: 10%;
   }
   .links img {
-    width: 100%;
+    width: 50%;
+    min-width: 64px;
   }
   .links li + li {
     padding-top: 0;
