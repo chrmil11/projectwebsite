@@ -107,11 +107,11 @@ h4 {
   font-weight: bold;
 }
 
-#achievements h4 {
+#team p, #achievements-intro p, #team ul {
   text-align: center;
 }
 
-#team p, #achievements p, #team ul, #achievements ul {
+#achievements h4 {
   text-align: center;
 }
 
