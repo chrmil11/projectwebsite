@@ -111,8 +111,18 @@ h4 {
   text-align: center;
 }
 
+#achievements h3 {
+  font-size: 1.55em; /* 31 / 20 = 1.55em; */
+  line-height: 1.258064516em; /* 39 / 31 = 1.258064516em */
+}
+
 #achievements h4 {
   text-align: center;
+}
+
+#achievements li+li {
+  border-top: 1px solid black;
+  padding-top: 1.3em; /* 26 / 20 = 1.3em */
 }
 
 strong {
