@@ -286,7 +286,7 @@ img#fb {
   padding-bottom: 0.65em; /* 13 / 20 = 0.65em */
 }
 
-#achievements h2 + p, #achievements p + p, #achievements p:last-child,
+#achievements h2 + p, #achievements-intro p + p, #achievements-intro p:last-child,
 #achievements li:last-child, #footer p {
   padding-bottom: 0;
 }
@@ -355,7 +355,7 @@ img#fb {
   #team-members .player .player-info {
     width: 60.2777778%; /* 434 / 720 = 0.602777778*/
     padding: 0;
-    left-padding: 3.61111%; /* 26 / 720 = 0.036111 */
+    padding-left: 3.61111%; /* 26 / 720 = 0.036111 */
     float: left;
   }
   h2 {
@@ -411,7 +411,26 @@ img#fb {
   }
 }
 
-@media screen and (min-width: 818px) {
+@media screen and (min-width: 786px) {
+  #cca-achievements li h4, #tourney-achievements li h4 {
+    width: 36.1111111%; /* 260 / 720 = 0.361111111 */
+    float: left;
+    padding-bottom: 1.3em; /* 13 / 20 = 0.65em */
+  }
+  #achievements li p {
+    width: 60.2777778%; /* 434 / 720 = 0.602777778*/
+    padding: 0;
+    padding-left: 3.61111%; /* 26 / 720 = 0.036111 */
+    padding-bottom: 1.3em; /* 13 / 20 = 0.65em */
+    float: left;
+  }
+  #achievements li, #achievements ul, #footer {
+    clear: both;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 818x) {
   .player {
     width: 33%;
     float: left;
